@@ -38,9 +38,6 @@ export const metadata: Metadata = {
       "Compare casinos online autorizados pelo SRIJ em Portugal com análises independentes.",
   },
   robots: { index: true, follow: true },
-  icons: {
-    apple: [{ url: "/apple-touch-icon.svg", type: "image/svg+xml" }],
-  },
 };
 
 export default function RootLayout({
