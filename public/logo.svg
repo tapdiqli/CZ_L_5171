@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" role="img" aria-label="LusoSpin">
+  <defs>
+    <linearGradient id="ls-coral" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2845b"/>
+      <stop offset="100%" stop-color="#f5a882"/>
+    </linearGradient>
+    <linearGradient id="ls-mint" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5ec4a8"/>
+      <stop offset="100%" stop-color="#7dd9c0"/>
+    </linearGradient>
+    <filter id="ls-glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#f2845b" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <!-- Spin wheel mark -->
+  <circle cx="24" cy="24" r="20" fill="#1e1529" stroke="url(#ls-coral)" stroke-width="2" filter="url(#ls-glow)"/>
+  <path d="M24 8 A16 16 0 0 1 40 24 L24 24 Z" fill="url(#ls-coral)"/>
+  <path d="M40 24 A16 16 0 0 1 24 40 L24 24 Z" fill="#2a1f3a"/>
+  <path d="M24 40 A16 16 0 0 1 8 24 L24 24 Z" fill="url(#ls-mint)" opacity="0.85"/>
+  <path d="M8 24 A16 16 0 0 1 24 8 L24 24 Z" fill="#3d2f52"/>
+  <circle cx="24" cy="24" r="5" fill="#0f0a14" stroke="url(#ls-coral)" stroke-width="1.5"/>
+  <!-- Wordmark -->
+  <text x="56" y="22" fill="#f2eaf8" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" letter-spacing="-0.03em">Luso</text>
+  <text x="112" y="22" fill="url(#ls-coral)" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" letter-spacing="-0.03em">Spin</text>
+  <text x="56" y="38" fill="#9d8bad" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.28em">CASINOS PT</text>
+  <rect x="56" y="28" width="52" height="2" rx="1" fill="url(#ls-coral)" opacity="0.5"/>
+</svg>
